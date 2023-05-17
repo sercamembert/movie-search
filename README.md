@@ -15,4 +15,4 @@ This is a movie search application built using React. The application allows use
 - The application displays the movie's title, poster image, rating, runtime, year, genre, plot, and actors.
 - If the search query does not return any results, an error message is displayed.
 
-link to demo:
+link to demo: https://movie-searcch.netlify.app/

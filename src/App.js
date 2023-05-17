@@ -8,7 +8,7 @@ function App() {
 
   const handleSearch = (event) => {
     event.preventDefault();
-    fetch(`http://www.omdbapi.com/?apikey=${key}&t=${title}`)
+    fetch(`https://www.omdbapi.com/?apikey=${key}&t=${title}`)
       .then((response) => response.json())
       .then((data) => {
         setData(data);
